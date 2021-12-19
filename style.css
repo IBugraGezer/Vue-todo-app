@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 10rem;
+  padding-top: 5rem;
+}
+.input-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.new-todo-line {
+  margin-bottom: 5rem;
+}
+.todo-input {
+  outline: none;
+  padding: 1rem 1rem;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 100px;
+}
+.btn {
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.btn-submit {
+  background-color: green;
+}
+.btn-update {
+  background-color: blue;
+}
+.btn-remove {
+  background-color: red;
+}
